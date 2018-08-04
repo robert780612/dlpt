@@ -1,3 +1,7 @@
+---
+description: Collect popular object detection model
+---
+
 # Object detection
 
 ## YOLO
