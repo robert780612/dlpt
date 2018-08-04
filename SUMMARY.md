@@ -6,6 +6,6 @@
 * [GAN](gan.md)
 * [Image style transfer](image-style-transfer.md)
 * [Face recognition](face-recognition.md)
-* [Interpretability](interpretability.md)
 * [Word embedding](word-embedding.md)
+* [Interpretability](interpretability.md)
 
