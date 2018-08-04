@@ -29,3 +29,17 @@ Deep Residual Learning for Image Recognition [https://arxiv.org/pdf/1512.03385.p
 * 
 ## Inception
 
+## Xception
+
+## Dense net
+
+## Squeeze and excitation network
+
+## Dual path network
+
+## Shuffle network
+
+## Squeeze network
+
+## ResXt
+
