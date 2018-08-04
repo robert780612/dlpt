@@ -6,14 +6,14 @@ description: Some popular convolutional model
 
 ## Network in network \(NIN\)
 
-[https://arxiv.org/pdf/1312.4400.pdf](https://arxiv.org/pdf/1312.4400.pdf)
+{% embed data="{\"url\":\"https://arxiv.org/abs/1312.4400\",\"type\":\"link\",\"title\":\"\[1312.4400\] Network In Network\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
 
 * Global average pooling
 * 1\*1 convolutional kernel
 
 ## Very Deep Convolutional Networks for Large-Scale Image Recognition \(VGG\)
 
-[https://arxiv.org/pdf/1409.1556.pdf](https://arxiv.org/pdf/1409.1556.pdf)
+{% embed data="{\"url\":\"https://arxiv.org/abs/1409.1556\",\"type\":\"link\",\"title\":\"\[1409.1556\] Very Deep Convolutional Networks for Large-Scale Image Recognition\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
 
 * Simply stacks more convolution layers
 * Stack small convolutional kernels to achieve the same "receptive field" as bigger one.
@@ -23,7 +23,7 @@ description: Some popular convolutional model
 
 ## Deep Residual Learning for Image Recognition \(Resnet\)
 
-[https://arxiv.org/pdf/1512.03385.pdf](https://arxiv.org/pdf/1512.03385.pdf)
+{% embed data="{\"url\":\"https://arxiv.org/abs/1512.03385\",\"type\":\"link\",\"title\":\"\[1512.03385\] Deep Residual Learning for Image Recognition\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
 
 * Add residual connection
 * 

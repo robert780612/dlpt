@@ -1,4 +1,4 @@
-# Face Recognition
+# Face recognition
 
 ## Learning a Similarity Metric Discriminatively, with Application to Face Verification \(Siamese network\)
 
@@ -12,5 +12,5 @@ Training a similarity metric from data
 
 ## FaceNet: A Unified Embedding for Face Recognition and Clustering 
 
-[https://arxiv.org/abs/1503.03832](https://arxiv.org/abs/1503.03832)
+{% embed data="{\"url\":\"https://arxiv.org/abs/1503.03832\",\"type\":\"link\",\"title\":\"\[1503.03832\] FaceNet: A Unified Embedding for Face Recognition and Clustering\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
 

@@ -4,7 +4,8 @@
 * [Image recognition](image-recognition.md)
 * [Object detection](object-detection.md)
 * [GAN](gan.md)
-* [Word Embedding](word-embedding.md)
-* [Face Recognition](face-recognition.md)
+* [Image style transfer](image-style-transfer.md)
+* [Face recognition](face-recognition.md)
 * [Interpretability](interpretability.md)
+* [Word embedding](word-embedding.md)
 

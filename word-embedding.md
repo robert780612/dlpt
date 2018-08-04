@@ -1,2 +1,2 @@
-# Word Embedding
+# Word embedding
 
