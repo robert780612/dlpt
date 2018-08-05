@@ -10,7 +10,7 @@ description: This page collect some papers which try to interpret the neural net
 
 ## Learning Deep Features for Discriminative Localization \(Class activation mapping, CAM\)
 
-{% embed data="{\"url\":\"https://arxiv.org/abs/1512.04150\",\"type\":\"link\",\"title\":\"\[1512.04150\] Learning Deep Features for Discriminative Localization\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
+[http://cnnlocalization.csail.mit.edu/Zhou\_Learning\_Deep\_Features\_CVPR\_2016\_paper.pdf](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)
 
 Class activation mapping \(CAM\)
 
