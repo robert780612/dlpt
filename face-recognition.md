@@ -1,3 +1,9 @@
+---
+description: >-
+  Face verification: is this the claimed person? Face recognition: who is this
+  person?
+---
+
 # Face recognition
 
 ## Learning a Similarity Metric Discriminatively, with Application to Face Verification \(Siamese network\)
@@ -13,4 +19,14 @@ Training a similarity metric from data
 ## FaceNet: A Unified Embedding for Face Recognition and Clustering 
 
 {% embed data="{\"url\":\"https://arxiv.org/abs/1503.03832\",\"type\":\"link\",\"title\":\"\[1503.03832\] FaceNet: A Unified Embedding for Face Recognition and Clustering\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
+
+$$
+||f(A^{(i)})-f(P^{(i)})||_2^2 + \alpha \lt ||f(A^{(i)})-f(N^{(i)})||_2^2
+$$
+
+$$
+\text{Triplet loss}= \Big[||f(A^{(i)})-f(P^{(i)})||_2^2 - ||f(A^{(i)})-f(N^{(i)})||_2^2 + \alpha \Big]_+
+$$
+
+$$A^{(i)}$$ : anchor of i-th triplet, $$P^{(i)}$$: positive example of i-th triplet, $$N^{(i)}$$: negative example of i-th triplet, $$\alpha$$: margin
 
