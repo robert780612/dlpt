@@ -9,4 +9,5 @@
 * [Face recognition](face-recognition.md)
 * [Interpretability](interpretability.md)
 * [Word embedding](word-embedding.md)
+* [Pytorch](pytorch.md)
 
