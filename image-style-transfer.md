@@ -20,3 +20,11 @@ $$
 L_{style}(S,P)=\sum_{l=1}^{L}w_l||G^{[l](S)}-G^{[l](P)}||^2
 $$
 
+$$
+G^{[l](x)}=\begin{bmatrix}
+<A^{[l](x)}_{i},A^{[l](x)}_{j}>
+\end{bmatrix}
+$$
+
+
+

@@ -9,3 +9,8 @@
 > 3. You should try not to call `tensor.data` in 0.4.0. What are your use cases for `tensor.data`?
 > 4. `tensor.clone()` makes a copy of `tensor`. `variable.clone()` and `variable.detach()` in 0.3.1 act the same as `tensor.clone()` and `tensor.detach()` in 0.4.0.
 
+| Item | detach | clone | data |
+| :--- | :--- | :--- | :--- |
+| requires\_grad | False | True \(??\) | False |
+| note |  |  | Not use in 0.4.0 |
+
