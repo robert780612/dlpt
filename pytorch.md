@@ -11,6 +11,12 @@
 
 | Item | detach | clone | data |
 | :--- | :--- | :--- | :--- |
-| requires\_grad | False | True \(??\) | False |
+| requires\_grad | False | Same as origin tensor \(??\) | False |
 | note |  |  | Not use in 0.4.0 |
+
+## Retain graph
+
+{% embed data="{\"url\":\"https://discuss.pytorch.org/t/runtimeerror-trying-to-backward-through-the-graph-a-second-time-but-the-buffers-have-already-been-freed-specify-retain-graph-true-when-calling-backward-the-first-time/6795\",\"type\":\"link\",\"title\":\"RuntimeError: Trying to backward through the graph a second time, but the buffers have already been freed. Specify retain\_graph=True when calling backward the first time\",\"description\":\"I keep running into this error:  RuntimeError: Trying to backward through the graph a second time, but the buffers have already been freed. Specify retain\_graph=True when calling backward the first time.  Can someone explain what this means?  Independent of the context of the problem, I don’t understand what the buffers are and what it means for them to be “freed”.  Context: In my case, it happens the second time I call loss.backward\(\), in a function: where the model’s function execute one step ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://discuss.pytorch.org/uploads/default/original/2X/3/38d28fd067a1a8f263e14507942b2e38e49b771a.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://discuss.pytorch.org/uploads/default/original/2X/3/38d28fd067a1a8f263e14507942b2e38e49b771a.png\",\"width\":144,\"height\":144,\"aspectRatio\":1}}" %}
+
+
 
