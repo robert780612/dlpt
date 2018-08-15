@@ -10,4 +10,5 @@
 * [Interpretability](interpretability.md)
 * [Word embedding](word-embedding.md)
 * [Pytorch](pytorch.md)
+* [Optimization](optimization.md)
 
