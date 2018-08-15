@@ -2,7 +2,11 @@
 
 ## A Neural Algorithm of Artistic Style
 
-{% embed data="{\"url\":\"https://arxiv.org/abs/1508.06576\",\"type\":\"link\",\"title\":\"\[1508.06576\] A Neural Algorithm of Artistic Style\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
+[https://www.cv-foundation.org/openaccess/content\_cvpr\_2016/papers/Gatys\_Image\_Style\_Transfer\_CVPR\_2016\_paper.pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
+
+{% embed data="{\"url\":\"https://harishnarayanan.org/writing/artistic-style-transfer/\",\"type\":\"link\",\"title\":\"Convolutional neural networks for artistic style transfer — Harish Narayanan\",\"description\":\"There’s an amazing app out right now called Prisma that transforms your photos into works of art using the styles of famous artwork and motifs. The app performs this style transfer with the help of a branch of machine learning called convolutional neural networks. In this article we’re going to take a journey through the world of convolutional neural networks from theory to practice, as we systematically reproduce Prisma’s core visual effect.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://harishnarayanan.org/icon.png\",\"aspectRatio\":0}}" %}
+
+{% embed data="{\"url\":\"https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199\",\"type\":\"link\",\"title\":\"Neural Artistic Style Transfer: A Comprehensive Look\",\"description\":\"Spring Quarter of my freshman year, I took Stanford’s CS 231n course on Convolutional Neural Networks. My final project for the course…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*dHo9DKqsmip4Hrfj9kUUog.jpeg\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/2000/1\*QvtiHFX8nicTD6A5SQx10Q.png\",\"width\":1238,\"height\":1226,\"aspectRatio\":0.9903069466882067},\"caption\":\"A Pytorch implement\"}" %}
 
 $$
 L_{total}=\alpha L_{content}(C,P)+\beta L_{style}(S,P)
