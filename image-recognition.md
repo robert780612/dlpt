@@ -43,3 +43,15 @@ description: Some popular convolutional model
 
 ## ResXt
 
+## Fully Convolutional Attention Networks for Fine-Grained Recognition
+
+[https://arxiv.org/pdf/1603.06765.pdf](https://arxiv.org/pdf/1603.06765.pdf)
+
+## Residual Attention Network for Image Classification
+
+[https://arxiv.org/pdf/1704.06904.pdf](https://arxiv.org/pdf/1704.06904.pdf)
+
+{% embed data="{\"url\":\"https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch\",\"type\":\"link\",\"title\":\"tengshaofeng/ResidualAttentionNetwork-pytorch\",\"description\":\"ResidualAttentionNetwork-pytorch - a pytorch code about Residual Attention Network.  This code is based on two  projects from\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/9246739?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
+{% embed data="{\"url\":\"https://github.com/youansheng/AttentionModule\",\"type\":\"link\",\"title\":\"youansheng/AttentionModule\",\"description\":\"AttentionModule - PyTorch Implementation of Residual Attention Network for Semantic Segmentation.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/23111956?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
