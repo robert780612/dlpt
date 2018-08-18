@@ -4,6 +4,10 @@
 
 [http://www.matthewzeiler.com/wp-content/uploads/2017/07/iccv2011.pdf](http://www.matthewzeiler.com/wp-content/uploads/2017/07/iccv2011.pdf)
 
+{% hint style="info" %}
+Transposed convolution = Fractional strided convolution
+{% endhint %}
+
 ### Explain what is deconvolution \(transposed convolution, a learnable upsampling\)
 
 Transposed convolution just recovers the **shape** of the origin image, but don't **value**.
