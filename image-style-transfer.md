@@ -10,7 +10,9 @@
 
 ### What is style?
 
-If two images are the same in the view of style, their features appear together. For example, feature A represents a hole structure and feature B represents a stripe texture. If both images are the same style \(stripe hole\), they appear in the both images at the same time, so the correlation matrix of features of the two images are the same.
+If two images are the same in the view of style, they have the same correlation matrix of feature maps.
+
+For example, feature A represents a hole structure and feature B represents a stripe texture. If both images are the same style \(stripe hole\), they appear in the both images at the same time, so the correlation matrix of features of the two images are the same.
 
 ### Algorithm
 
