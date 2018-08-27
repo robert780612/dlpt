@@ -8,6 +8,12 @@
 
 {% embed data="{\"url\":\"https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199\",\"type\":\"link\",\"title\":\"Neural Artistic Style Transfer: A Comprehensive Look\",\"description\":\"Spring Quarter of my freshman year, I took Stanford’s CS 231n course on Convolutional Neural Networks. My final project for the course…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*dHo9DKqsmip4Hrfj9kUUog.jpeg\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/2000/1\*QvtiHFX8nicTD6A5SQx10Q.png\",\"width\":1238,\"height\":1226,\"aspectRatio\":0.9903069466882067},\"caption\":\"Explain NST with a Pytorch implement\"}" %}
 
+### What is style?
+
+If two images are the same in the view of style, their features appear together. For example, feature A represents a hole structure and feature B represents a stripe texture. If both images are the same style \(stripe hole\), they appear in the both images at the same time, so the correlation matrix of features of the two images are the same.
+
+### Algorithm
+
 Neural style transfer needs two images, one called content image \(C\) and another called style image \(S\). Our goal is produce an pastiche image \(P\) which content is kept as possible as C with style S.
 
 Now, we define the loss function $$L_{total}$$ which contains two parts, the first one called the content loss \($$L_{content}$$\) measures how far is the pastiche \(P\) to the content image \(C\) in content, and the second part called the style loss \($$L_{style}$$\) measures how far is the pastiche image \(P\) to the style image \(S\) in style. Those losses are then minimized by directly changing the pastiche image.
