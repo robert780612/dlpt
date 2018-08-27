@@ -7,9 +7,10 @@
 * [GAN](gan.md)
 * [Image style transfer](image-style-transfer.md)
 * [Face recognition](face-recognition.md)
-* [Interpretability](interpretability/README.md)
-  * [Transposed convolution](interpretability/deconvolution.md)
+* [Interpretability](interpretability.md)
 * [Word embedding](word-embedding.md)
 * [Pytorch](pytorch.md)
 * [Optimization](optimization.md)
+* [Special layers](special-layers/README.md)
+  * [Transposed convolution](special-layers/deconvolution.md)
 

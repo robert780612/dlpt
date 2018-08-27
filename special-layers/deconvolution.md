@@ -44,3 +44,7 @@ The projection operator is not in the sense of vector project. It more likes rec
 $$F^T$$ and $$F$$ are not the transposed relationship in the matrix meaning. The weights of these two operators are trained separately.
 {% endhint %}
 
+## A guide to convolution arithmetic for deep learning
+
+[https://arxiv.org/pdf/1603.07285.pdf](https://arxiv.org/pdf/1603.07285.pdf)
+
