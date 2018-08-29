@@ -25,9 +25,15 @@ description: NAS
 
 Input of layer i can be formally described as a function: $$g_i(L_{i-1}^{out},...,L_{0}^{out})$$
 
-* $$g_i(L_{i-1}^{out},...,L_{0}^{out})=L_{i-1}^{out}$$
-* $$g_i(L_{i-1}^{out},...,L_{0}^{out})=L_{i-1}^{out}+L_{j}^{out}$$
-* $$g_i(L_{i-1}^{out},...,L_{0}^{out})=\text{concat}(L_{i-1}^{out},...,L_{0}^{out})$$
+* Chain-structured network: $$g_i(L_{i-1}^{out},...,L_{0}^{out})=L_{i-1}^{out}$$
+* Residual type network: $$g_i(L_{i-1}^{out},...,L_{0}^{out})=L_{i-1}^{out}+L_{j}^{out}$$
+* Dense connected network: $$g_i(L_{i-1}^{out},...,L_{0}^{out})=\text{concat}(L_{i-1}^{out},...,L_{0}^{out})$$
 
+### Search strategy
 
+* Random search
+* Bayesian optimization
+* Evolutionary methods
+* Reinforcement learning
+* Gradient based methods
 
