@@ -13,4 +13,5 @@
 * [Optimization](optimization.md)
 * [Special layers](special-layers/README.md)
   * [Transposed convolution](special-layers/deconvolution.md)
+* [Neural architecture search](neural-architecture-search.md)
 
