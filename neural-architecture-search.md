@@ -37,3 +37,15 @@ Input of layer i can be formally described as a function: $$g_i(L_{i-1}^{out},..
 * Reinforcement learning
 * Gradient based methods
 
+### Performance estimation strategy
+
+* Regular training
+* Lower resolution image
+* Less filter per layer
+
+## Neural Architecture Search with Reinforcement Learning
+
+[https://arxiv.org/pdf/1611.01578.pdf](https://arxiv.org/pdf/1611.01578.pdf)
+
+
+
