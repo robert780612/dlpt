@@ -42,10 +42,14 @@ Input of layer i can be formally described as a function: $$g_i(L_{i-1}^{out},..
 * Regular training
 * Lower resolution image
 * Less filter per layer
+* Network morphism
+* One-shot architecture search
 
 ## Neural Architecture Search with Reinforcement Learning
 
 [https://arxiv.org/pdf/1611.01578.pdf](https://arxiv.org/pdf/1611.01578.pdf)
 
+## AutoAugment: Learning Augmentation Policies from Data
 
+[https://arxiv.org/pdf/1805.09501.pdf](https://arxiv.org/pdf/1805.09501.pdf)
 
