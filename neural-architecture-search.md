@@ -13,9 +13,7 @@ description: NAS
 [https://arxiv.org/pdf/1808.05377.pdf](https://arxiv.org/pdf/1808.05377.pdf)
 
 1. Search space
-   * Small search space reduces the size of search space
-   * But introduces a human bias
-   * Prevent finding novel architecture
+   * Small search space reduces search time, but introduces a human bias, and prevents finding novel architecture
 2. Search strategy
    * How to explore the search space
 3. Performance estimation strategy
