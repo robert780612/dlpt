@@ -17,5 +17,5 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 
 At each time step $$t \in \{0,1,2,...\}$$, the agent receives some representation of the environment's state, $$S_t \in \boldsymbol{S}$$, and on that basis selects an action, $$A_t \in \boldsymbol{A}(s)$$[^1]
 
-[1]: action set could depend on the states.
+[1]: action set depends on the states.
 
