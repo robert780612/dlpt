@@ -6,7 +6,7 @@ description: NAS
 
 ## Collections
 
-{% embed data="{\"url\":\"https://www.ml4aad.org/automl/literature-on-neural-architecture-search/\",\"type\":\"link\",\"title\":\"Literature on Neural Architecture Search – AutoML\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.automl.org/wp-content/uploads/2018/07/automl\_org\_favi-1.png\",\"aspectRatio\":0}}" %}
+https://www.ml4aad.org/automl/literature-on-neural-architecture-search
 
 ## Neural Architecture Search: A Survey
 
