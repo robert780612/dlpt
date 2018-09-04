@@ -11,6 +11,4 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 <tr><td><img src=".gitbook/assets/agent.png"/></td></tr>
 </table>
 
-
-
 * Agent
