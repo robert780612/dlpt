@@ -11,6 +11,4 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 <figcaption>The agent-environment interaction in a Markov Decision Process.</figcaption>
 </figure>
 
-
-
 * Agent
