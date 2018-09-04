@@ -1,5 +1,6 @@
 ---
-description: Summarize some deep learning algorithm
+plugins:
+  - katex
 ---
 
 # Content
