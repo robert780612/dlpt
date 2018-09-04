@@ -47,7 +47,7 @@ The gram matrix of the l-th layer of data x is denoted as $$G^{[l](x)}$$. And th
 
 $$
 G^{[l](x)}=\begin{bmatrix}
-<A^{[l](x)}_{i},A^{[l](x)}_{j}> \\
+<A^{[l](x)}_{i},A^{[l](x)}_{j}>
 \end{bmatrix}
 $$
 
