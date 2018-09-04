@@ -35,13 +35,10 @@ $$
 R^T_l=F_l^T...P_{s2}F_2^TP_{s1}F_1^T
 $$
 
-{% hint style="danger" %}
-The projection operator is not in the sense of vector project. It more likes recover the shape to input space.
-{% endhint %}
 
-{% hint style="danger" %}
-$$F^T$$ and $$F$$ are not the transposed relationship in the matrix meaning. The weights of these two operators are trained separately.
-{% endhint %}
+**The projection operator is not in the sense of vector project. It more likes recover the shape to input space.**
+
+**$$F^T$$ and $$F$$ are not the transposed relationship in the matrix meaning. The weights of these two operators are trained separately.**
 
 ## A guide to convolution arithmetic for deep learning
 
