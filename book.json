@@ -1,20 +1,12 @@
 {
-    "plugins": ["disqus", "richquotes", "katex", "tbfed-pagefooter@^0.0.1"],
+    "plugins": ["disqus", "richquotes", "katex"],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "https-www-gitbook-com-stormtiti"
-        },
         "richquotes":
         {
             "star": {
                 "alert": "warning",
                 "picto": "fa-star"
             }
-        },
-        "tbfed-pagefooter": {
-            "copyright": "",
-            "modify_label": "Revision time:",
-            "modify_format": "YYYY-MM-DD"
         }
     }
 }
