@@ -1,5 +1,6 @@
 ---
-description: This page collect some papers which try to interpret the neural network.
+plugins:
+  - katex
 ---
 
 # Interpretability
@@ -22,13 +23,17 @@ Class activation mapping \(CAM\)
 
 Let $$a_1,..., a_k$$ be the k feature maps of the last convolution layer and followed by GAP and FC layers, and $$M$$is the size of a feature map, and $$w_n $$ is the weight which connected n-th filter to one of the scores called "s".
 
+
 $$
 s = \sum_{n=1}^k (w_n \frac{\sum_{ij} (a_n)_{ij}}{M})=\frac{1}{M}\sum_{ij} (\sum_{n=1}^kw_na_n)_{ij}
 $$
 
+
 It changed the layers' order from "conv-&gt;GAP-&gt;FC" to "conv-&gt;FC-&gt;GAP". The following simple equation is called the "class activation mapping" of class "s**"**.
+
 
 $$
 \text{CAM}=\sum_{n=1}^kw_na_n
 $$
+
 
