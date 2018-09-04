@@ -6,7 +6,7 @@ description: >-
 
 # Face recognition
 
-## Learning a Similarity Metric Discriminatively, with Application to Face Verification \(Siamese network\)
+## Learning a Similarity Metric Discriminatively, with Application to Face Verification (Siamese network)
 
 [http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf](http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf)
 
@@ -18,7 +18,7 @@ Training a similarity metric from data
 
 ## FaceNet: A Unified Embedding for Face Recognition and Clustering 
 
-{% embed data="{\"url\":\"https://arxiv.org/abs/1503.03832\",\"type\":\"link\",\"title\":\"\[1503.03832\] FaceNet: A Unified Embedding for Face Recognition and Clustering\",\"icon\":{\"type\":\"icon\",\"url\":\"https://arxiv.org/favicon.ico\",\"aspectRatio\":0}}" %}
+https://arxiv.org/abs/1503.03832
 
 $$
 ||f(A^{(i)})-f(P^{(i)})||_2^2 + \alpha \lt ||f(A^{(i)})-f(N^{(i)})||_2^2
