@@ -14,10 +14,8 @@ Class activation mapping \(CAM\)
 * If the last three layers are "convolution + global average pooling+ full connection\), then you can apply this method to visualize object location.
 * Just use fc's weight and calculate weighted sum of convolution feature maps \(without global average pooling\).
 
-<table class="image">
-<caption align="bottom">Class activation mapping</caption>
-<tr><td><img src=".gitbook/assets/cam.png"/></td></tr>
-</table>
+![](/.gitbook/assets/cam.png)
+*Class activation mapping*
 
 Let $$a_1,..., a_k$$ be the k feature maps of the last convolution layer and followed by GAP and FC layers, and $$M$$is the size of a feature map, and $$w_n $$ is the weight which connected n-th filter to one of the scores called "s".
 

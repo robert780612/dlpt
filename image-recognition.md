@@ -18,10 +18,8 @@ https://arxiv.org/abs/1409.1556
 * Stack small convolutional kernels to achieve the same "receptive field" as bigger one.
   * Stack two 3*3 convolutional kernel is equivalent to 5*5 convolutional kernel 
 
-<table class="image">
-<caption align="bottom">One 5*5 kernel and stacks two 3*3 kernels have the same effective receptive field.</caption>
-<tr><td><img src=".gitbook/assets/receptive-field.png"/></td></tr>
-</table>
+![](/.gitbook/assets/receptive-field.png)
+*One 5*5 kernel and stacks two 3*3 kernels have the same effective receptive field.*
 
 ## Deep Residual Learning for Image Recognition (Resnet)
 
