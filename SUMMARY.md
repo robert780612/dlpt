@@ -14,4 +14,5 @@
 * [Special layers](special-layers/README.md)
   * [Transposed convolution](special-layers/deconvolution.md)
 * [Neural architecture search](neural-architecture-search.md)
+* [Reinforcement learning](reinforcement-learning.md)
 
