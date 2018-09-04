@@ -1,5 +1,5 @@
 {
-    "plugins": ["richquotes", "katex"],
+    "plugins": ["richquotes", "mathjax"],
     "pluginsConfig": {
         "richquotes":
         {
