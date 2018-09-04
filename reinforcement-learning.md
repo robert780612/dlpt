@@ -6,6 +6,11 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 
 ## Markov decision process
 
-![Figure1: The agent-environment interaction in a Markov Decision Process.](.gitbook/assets/agent.png)
+<figure class="image">
+<img src=".gitbook/assets/agent.png">
+<figcaption>The agent-environment interaction in a Markov Decision Process.</figcaption>
+</figure>
+
+
 
 * Agent
