@@ -10,9 +10,9 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 *The agent-environment interaction in a Markov Decision Process.*
 
 * Agent: decision maker
-* Action: agent's decision which impacts the environment
-* State: the environment situation
-* Reward: a special numerical values
+* Action: agent's decision which impacts the environment ($$A_t$$)
+* State: the environment situation ($$S_t$$)
+* Reward: a special numerical values ($$R_t$$)
 * Environment: comprising everything outside the agent
 
 At each time step $$t \in \{0,1,2,...\}$$, the agent receives some representation of the environment's state, $$S_t \in \boldsymbol{S}$$, and on that basis selects an action, $$A_t \in A(s)$$, which depends on the states. The agent receives a numerical rewards, $$R_{t+1} \in R$$.
@@ -49,7 +49,19 @@ r(s,a,s')
 =\sum_{r \in R}r \dfrac{p(s',r|s,a)}{p(s'|s,a)}
 $$
 
+---
 
+* Return: the total reward an agent can get. ($$G_t$$)
+* Policy: a probability distribution of actions under some states. ($$\pi(a|s)$$)
+* Value: the expected return of a state under a policy. ($$v_\pi(s)$$)
+* d
+
+Return or discounted return
+$$
+G_t = \sum_{k=0}^{\infty}\gamma^k R_{t+k+1}, \qquad 0\le\gamma\le 1
+$$
+
+The value 
 ---
 
 ---
