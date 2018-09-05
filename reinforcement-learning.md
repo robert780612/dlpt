@@ -45,40 +45,18 @@ $$
 Expected rewards for state-action-next-state triples
 $$
 r(s,a,s')
-=\mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a,S_t=s']=
-\sum_{r \in R}r\sum_{s' \in S}p(s',r|s,a)
+=\mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a,S_t=s']
+=\sum_{r \in R}r \dfrac{p(s',r|s,a)}{p(s'|s,a)}
 $$
 
 
+---
 
+---
 
+---
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
