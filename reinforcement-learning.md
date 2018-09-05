@@ -24,17 +24,61 @@ $$
 
 The conditional probability of $$s,r$$ at time $$t$$ is like:
 $$
-p(s^{'},r|s,a)=P(S_{t}=s^{'}, R_{t}=r|S_{t-1}=s,A_{t-1}=a)
+p(s',r|s,a)
+=P(S_{t}=s', R_{t}=r|S_{t-1}=s,A_{t-1}=a)
 $$
 
 State-transition probability
 $$
-p(s^{'}|s,a)=P(S_{t}=s^{'}|S_{t-1}=s,A_{t-1}=a)
+p(s'|s,a)
+=P(S_{t}=s'|S_{t-1}=s,A_{t-1}=a)
+=\sum_{r \in R}p(s',r|s,a)
 $$
 
-Expected rewards
+Expected rewards for state-action pairs
 $$
-r(s,a)=\mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a]=\sum_{r \in R}
+r(s,a)
+=\mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a]
+=\sum_{r \in R}r\sum_{s' \in S}p(s',r|s,a)
 $$
 
-d
+Expected rewards for state-action-next-state triples
+$$
+r(s,a,s')
+=\mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a,S_t=s']=
+\sum_{r \in R}r\sum_{s' \in S}p(s',r|s,a)
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
