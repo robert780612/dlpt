@@ -54,14 +54,24 @@ $$
 * Return: the total reward an agent can get. ($$G_t$$)
 * Policy: a probability distribution of actions under some states. ($$\pi(a|s)$$)
 * Value: the expected return of a state under a policy. ($$v_\pi(s)$$)
-* d
 
 Return or discounted return
 $$
 G_t = \sum_{k=0}^{\infty}\gamma^k R_{t+k+1}, \qquad 0\le\gamma\le 1
 $$
 
-The value 
+The state-value function for policy $$\pi$$
+$$
+v_\pi(s)=\mathbb{E}_\pi \left[ G_t | S_{t}=s \right]
+$$
+
+The action-value function for policy $$\pi$$
+$$
+q_\pi(s,a)=\mathbb{E}_\pi \left[ G_t | S_{t}=s , A_{t}=a \right]
+$$
+
+
+
 ---
 
 ---
