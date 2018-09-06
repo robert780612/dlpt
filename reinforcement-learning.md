@@ -75,7 +75,12 @@ $$
 v_\pi(s)=\sum_a \pi(a|s) \sum_{s',r}p(s',r|s,a) \left[ r + \gamma v_\pi(s') \right]
 $$
 
+---
 
+Optimal state-value function
+$$
+v_*(s) = \max_\pi v_\pi(s)
+$$
 
 ---
 
