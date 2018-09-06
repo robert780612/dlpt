@@ -70,6 +70,11 @@ $$
 q_\pi(s,a)=\mathbb{E}_\pi \left[ G_t | S_{t}=s , A_{t}=a \right]
 $$
 
+The Bellman equation for $$v_\pi$$
+$$
+v_\pi(s)=\sum_a \pi(a|s) \sum_{s',r}p(s',r|s,a) \left[ r + \gamma v_\pi(s') \right]
+$$
+
 
 
 ---
