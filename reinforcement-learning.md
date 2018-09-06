@@ -11,7 +11,7 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 
 * Agent: decision maker
 * Action: agent's decision which impacts the environment ($$A_t$$)
-* State: the environment situation ($$S_t$$)
+* State: the observation of the environment ($$S_t$$)
 * Reward: a special numerical values ($$R_t$$)
 * Environment: comprising everything outside the agent
 
