@@ -17,7 +17,7 @@ description: 'http://incompleteideas.net/book/bookdraft2017nov5.pdf'
 
 At each time step $$t \in \{0,1,2,...\}$$, the agent receives some representation of the environment's state, $$S_t \in \boldsymbol{S}$$, and on that basis selects an action, $$A_t \in A(s)$$, which depends on the states. The agent receives a numerical rewards, $$R_{t+1} \in R$$.
 
-MDP sequence is like this:
+The history is the sequence of states, actions, rewards:
 $$
 S_0, A_0, R_1, S_1, A_1, R_2, S_2, A_2, R_2,...
 $$
@@ -70,9 +70,14 @@ $$
 q_\pi(s,a)=\mathbb{E}_\pi \left[ G_t | S_{t}=s , A_{t}=a \right]
 $$
 
-The Bellman equation for $$v_\pi$$
+The Bellman equation for $$v_\pi(s)$$
 $$
 v_\pi(s)=\sum_a \pi(a|s) \sum_{s',r}p(s',r|s,a) \left[ r + \gamma v_\pi(s') \right]
+$$
+
+The Bellman equation for $$q_\pi(s,a)$$
+$$
+q_\pi(s,a) = 
 $$
 
 ---
