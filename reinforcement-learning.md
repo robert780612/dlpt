@@ -72,12 +72,13 @@ $$
 
 The Bellman equation for $$v_\pi(s)$$
 $$
-v_\pi(s)=\sum_a \pi(a|s) \sum_{s',r}p(s',r|s,a) \left[ r + \gamma v_\pi(s') \right]
+v_\pi(s)=\sum_a \pi(a|s) \sum_{r,s'}p(r,s'|s,a) \left[ r + \gamma v_\pi(s') \right]
 $$
 
 The Bellman equation for $$q_\pi(s,a)$$
 $$
-q_\pi(s,a) = 
+q_\pi(s,a) = \sum_{r,s'} p(r,s'|s,a) 
+\left[ r + \gamma \sum_{a'} \left[ \pi(a'|s')q_\pi(s',a') \right] \right]
 $$
 
 ---
