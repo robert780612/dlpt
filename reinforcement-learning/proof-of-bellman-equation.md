@@ -45,10 +45,10 @@ $$
 
 ## Notation 2
 $$
-
+Q_\pi(s,a)=\sum_{s'}P^a_{ss'} \lbrack R^a_{ss'} + \gamma \sum_{a'} \pi(s',a') Q_\pi(s',a') \rbrack
 $$
 
-
+https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/
 
 
 
