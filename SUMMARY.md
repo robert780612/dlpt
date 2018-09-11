@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [Content](README.md)
 * [Image recognition](image-recognition.md)
@@ -15,4 +15,5 @@
   * [Transposed convolution](special-layers/deconvolution.md)
 * [Neural architecture search](neural-architecture-search.md)
 * [Reinforcement learning](reinforcement-learning.md)
+  * [Proof of Bellman equation](reinforcement-learning/proof-of-bellman-equation.md)
 
