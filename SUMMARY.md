@@ -16,4 +16,5 @@
 * [Neural architecture search](neural-architecture-search.md)
 * [Reinforcement learning](reinforcement-learning.md)
   * [Proof of Bellman equation](reinforcement-learning/proof-of-bellman-equation.md)
+  * [Tabular solution method](reinforcement-learning/tabular-solution-method.md)
 
