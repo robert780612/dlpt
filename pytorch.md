@@ -18,5 +18,34 @@ https://discuss.pytorch.org/t/clone-and-detach-in-v0-4-0/16861\
 
 https://discuss.pytorch.org/t/runtimeerror-trying-to-backward-through-the-graph-a-second-time-but-the-buffers-have-already-been-freed-specify-retain-graph-true-when-calling-backward-the-first-time/6795
 
+## torch.gather
+torch.gath(input, dim, index, out=None) -> Tensor
+
+Collect values along an axis specified by dim from input tensor
+
+Example: dim=1, index is the column of values
+> a = torch.tensor([[1,2],[3,4]])
+> torch.gather(a, 1, torch.LongTensor([[1,1],[1,0]]))
+> 2 2
+> 4 3
+
+Example: dim=1, index is the column of values
+> a = torch.tensor([[1,2],[3,4]])
+> torch.gather(a, 1, torch.LongTensor([[0,0],[0,0]]))
+> 1 1
+> 3 3
+
+Example: dim=0, index is the row of values
+> a = torch.tensor([[1,2],[3,4]])
+> torch.gather(a, 0, torch.LongTensor([[0,0],[0,0]]))
+> 1 2
+> 1 2
+
+
+
+
+
+
+
 
 
